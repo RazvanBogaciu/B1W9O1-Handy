@@ -1,0 +1,47 @@
+
+
+
+
+
+#pagina{
+    width:1000px;
+    margin: 0 auto;
+    display:grid;
+    grid-template-areas :
+    'logo logo logo logo logo logo'
+    'nav nav nav nav nav nav'
+   'main main main main main main'
+   'left left middle middle right right'
+   'footer footer footer footer footer footer';
+
+}
+#logo {
+    margin-left:25px;
+    margin-bottom: 15px;
+    grid-area: logo;
+    
+}
+nav {
+
+    width:950px;
+    height:50px;
+    margin: 0 auto;
+    background: #222931;
+    grid-area: nav;
+}
+.link{
+    text-decoration:none;
+    color:white;
+
+}
+.header {
+    width :100%;
+    position: absolute;
+    top:60px;
+    z-index: -1;
+}
+
+*{
+    padding:0px;
+    margin:0px
+}
